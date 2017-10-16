@@ -2,11 +2,11 @@
 
 import React, {
   Component,
-  PropTypes
 } from 'react';
 import ReactNative, {
   View
 } from 'react-native';
+import PropTypes from 'prop-types';
 
 export default class CellWrapper extends Component {
   componentDidMount() {

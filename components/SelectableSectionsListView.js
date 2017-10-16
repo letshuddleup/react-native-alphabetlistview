@@ -3,7 +3,6 @@
 
 import React, {
   Component,
-  PropTypes,
 } from 'react';
 import ReactNative, {
   ListView,
@@ -12,6 +11,7 @@ import ReactNative, {
   NativeModules,
 } from 'react-native';
 import merge from 'merge';
+import PropTypes from 'prop-types';
 
 import SectionHeader from './SectionHeader';
 import SectionList from './SectionList';
